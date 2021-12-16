@@ -1,4 +1,4 @@
-# vue3_starter
+# vue3_starter_JS
 
 ## Project setup
 ```
