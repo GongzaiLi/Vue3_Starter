@@ -31,7 +31,12 @@
       <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
     </ul>
 
-    {{ info }}
+
+    <el-table :data="tableData" style="width: 100%">
+      <el-table-column prop="titleCn" label="title-china" width="180"/>
+      <el-table-column prop="titleEn" label="title-english" width="180"/>
+    </el-table>
+
   </div>
 </template>
 
@@ -46,7 +51,7 @@ export default {
   },
   data() {
     return {
-      info: []
+      tableData: []
     }
   },
   mounted() {
@@ -56,7 +61,7 @@ export default {
     getInfo: async function () {
       await Api.getInfo().then((res) => {
         console.table(res.data.data);
-        this.info = res.data.data;
+        this.tableData = res.data.data;
       })
     }
   }
