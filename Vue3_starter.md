@@ -1,4 +1,4 @@
-# Vue3 - Initial Structuring Process Steps
+# Vue3 - Initial Structuring Process Steps - With JS
 
 ### 1. Node.js 安装 
 
