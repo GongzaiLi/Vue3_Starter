@@ -27,7 +27,7 @@ https://nodejs.org/en/
 
 6. Choosing Vue 3
 
-5. npm install && npm run serve (The step will test web is or not is working)![1](MD_image.png)
+5. npm install && npm run serve (The step will test web is or not is working)![1](./MD_image/1.png)
 
 
 
